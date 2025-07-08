@@ -1,0 +1,23 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: aquamarine;
+}
+
+.exercicio{
+    border: 1px solid white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+input, button {
+    margin: 5px, 0;
+    padding: 6px;
+}
+
+p {
+    font-weight: bold;
+}
