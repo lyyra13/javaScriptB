@@ -6,11 +6,33 @@ function somar(){
 }
 
 function verificarIdade(){
-    let n1 = Number(document.getElementById("idade").value);
+    let idade = Number(document.getElementById("idade").value);
     if(idade < 18){
-        document.getElementById("resultado1").innerText = "idade menor que 18 anos";
+        document.getElementById("resultado2").innerText = "menor idade ";
     }
-    else if(idade < 18){
-        document.getElementById("resultado1").innerText = "idade maior que 18 anos";
+    else
+    {
+        document.getElementById("resultado2").innerText = "maior idade";
     }
+}
+
+function contarCaracteres(){
+    let texto = (document.getElementById("texto").value);
+    document.getElementById("resultado3").innerText = "Quantidade de caracteres: " + texto.length;
+}
+
+function verificarImparPar(){
+    let num = Number(document.getElementById("num").value);
+    if(num % 2 === 0){
+        document.getElementById("resultado4").innerText = "Par";
+    }
+    else 
+    {
+        document.getElementById("resultado4").innerText = "Ímpar";
+    }
+}
+
+function nomeCaixaAlta() {
+    let texto = (document.getElementById("texto").value);
+    document.getElementById("resultado5").innerText = "Palavra em caixa alta: " + texto.toUpperCase();
 }
