@@ -1,13 +1,13 @@
 h1{
-    color: red;
+    color: rgb(80, 8, 8);
 }
 
 h2{
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
 
 .exercicio{
-    border: 1px solid rgb(195, 241, 28);
+    border: 1px solid rgb(179, 74, 74);
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
